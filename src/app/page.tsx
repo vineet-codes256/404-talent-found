@@ -60,10 +60,22 @@ export default function Portfolio() {
           <h2 className="text-3xl font-semibold text-gray-700 mb-6">About Me</h2>
           <p className="text-lg text-gray-600">
             I am a jack-of-all-trades developer with a passion for technology and
-            innovation. With resilience shaped by overcoming vision and
-            neurodivergence challenges, I craft elegant solutions to complex
-            problems. Let&apos;s create impactful solutions together!
+            innovation. Since the age of 9, I have navigated life with monocular
+            vision, ADHD, and myopia with astigmatism. These challenges have
+            shaped me into a resilient problem-solver, eager to craft elegant
+            solutions for complex problems. Let’s create impactful solutions together!
           </p>
+        </section>
+
+        <section className="my-10">
+          <h2 className="text-3xl font-semibold text-gray-700 mb-6">Skills</h2>
+          <ul className="list-disc list-inside text-lg text-gray-600">
+            <li>Creative Problem-Solving: Analyzing complex issues and delivering innovative solutions.</li>
+            <li>Engineering Expertise: Full-stack development and hardware troubleshooting.</li>
+            <li>Technical Proficiency: Python, JavaScript, React, Node.js, Flask, and AI integration.</li>
+            <li>Cloud & DevOps: CI/CD pipelines, Docker, Kubernetes, AWS, GCP.</li>
+            <li>Collaboration & Mentorship: Cross-functional teamwork and guiding junior developers.</li>
+          </ul>
         </section>
 
         <section className="my-10">
@@ -86,7 +98,6 @@ export default function Portfolio() {
                       <a
                         href={project.link}
                         target="_blank"
-                        rel="noopener noreferrer"
                         className="text-blue-500 underline mt-2 inline-block"
                       >
                         View Project
