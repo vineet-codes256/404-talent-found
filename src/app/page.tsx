@@ -1,0 +1,116 @@
+"use client";
+
+import { useState } from "react";
+import { motion } from "framer-motion";
+import { Card, CardContent } from "./components/Card";
+import { Button } from "./components/Button";
+import { LucideMail, LucideLinkedin } from "lucide-react";
+import { SiGithub, SiLinkedin } from "react-icons/si";
+
+interface Project {
+  title: string;
+  description: string;
+  link?: string;
+}
+
+export default function Portfolio() {
+  const [projects] = useState<Project[]>([
+    {
+      title: "AI-Powered Productivity Tools",
+      description:
+        "Developed tools to assist people with ADHD, dyslexia, and other neurodivergences, including a music player, focus timer, and Chrome extension.",
+      link: "https://github.com/vineet-codes256",
+    },
+    {
+      title: "Camera App Chrome Extension",
+      description:
+        "Achieved over 18,000 installs by providing users with a simple, intuitive camera app for Chrome browsers.",
+      link: "https://chromewebstore.google.com/detail/capturepro-camera/igoginokckmjjoaohbimmglmbbdnhfoi",
+    },
+    {
+      title: "PC Hardware Builds",
+      description:
+        "Customized high-performance systems prioritizing sustainability and cost-efficiency.",
+    },
+  ]);
+
+  return (
+    <div className="bg-gray-100 min-h-screen p-8">
+      <header className="text-center py-10">
+        <h1 className="text-5xl font-bold text-gray-800 mb-4">Vineet Rawat</h1>
+        <p className="text-xl text-gray-600">
+          Full-Stack Developer | AI Enthusiast | Problem Solver
+        </p>
+        <SiGithub className="w-6 h-6 text-gray-700" />
+        <div className="flex justify-center space-x-4 mt-6">
+          <a href="https://github.com/vineet-codes256" target="_blank" rel="noopener noreferrer">
+            <SiLinkedin className="w-6 h-6 text-gray-700" />
+          </a>
+          <a href="https://www.linkedin.com/in/vineetrawat256" target="_blank" rel="noopener noreferrer">
+            <LucideLinkedin className="w-6 h-6 text-gray-700" />
+          </a>
+          <a href="mailto:vineetrawat256@gmail.com">
+            <LucideMail className="w-6 h-6 text-gray-700" />
+          </a>
+        </div>
+      </header>
+
+      <main>
+        <section className="my-10">
+          <h2 className="text-3xl font-semibold text-gray-700 mb-6">About Me</h2>
+          <p className="text-lg text-gray-600">
+            I am a jack-of-all-trades developer with a passion for technology and
+            innovation. With resilience shaped by overcoming vision and
+            neurodivergence challenges, I craft elegant solutions to complex
+            problems. Let&apos;s create impactful solutions together!
+          </p>
+        </section>
+
+        <section className="my-10">
+          <h2 className="text-3xl font-semibold text-gray-700 mb-6">Projects</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {projects.map((project, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.2 }}
+              >
+                <Card className="shadow-lg hover:shadow-2xl">
+                  <CardContent>
+                    <h3 className="text-xl font-semibold text-gray-800">
+                      {project.title}
+                    </h3>
+                    <p className="text-gray-600 mt-2">{project.description}</p>
+                    {project.link && (
+                      <a
+                        href={project.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-500 underline mt-2 inline-block"
+                      >
+                        View Project
+                      </a>
+                    )}
+                  </CardContent>
+                </Card>
+              </motion.div>
+            ))}
+          </div>
+        </section>
+
+        <section className="my-10">
+          <h2 className="text-3xl font-semibold text-gray-700 mb-6">Contact</h2>
+          <p className="text-lg text-gray-600 mb-4">
+            Feel free to reach out for collaborations or opportunities.
+          </p>
+          <Button
+            onClick={() => (window.location.href = "mailto:vineetrawat256@gmail.com")}
+          >
+            Contact Me
+          </Button>
+        </section>
+      </main>
+    </div>
+  );
+}
