@@ -16,21 +16,27 @@ interface Project {
 export default function Portfolio() {
   const [projects] = useState<Project[]>([
     {
+      title: "Abun.com",
+      description:
+        "Played a pivotal role as a core developer at Abun.com, a cutting-edge SaaS platform. Spearheaded the development of AI-driven features, optimized cloud infrastructure, and scalable SaaS applications. Delivered comprehensive solutions encompassing a React front-end, Django REST Framework (DRF) backend, and robust cloud architecture.",
+      link: "https://abun.com",
+    },
+    {
       title: "AI-Powered Productivity Tools",
       description:
-        "Developed tools to assist people with ADHD, dyslexia, and other neurodivergences, including a music player, focus timer, and Chrome extension.",
+        "Developed innovative tools designed to support individuals with ADHD, dyslexia, and other neurodivergences. Developed a suite of applications including a music player, focus timer, and a highly functional Chrome extension.",
       link: "https://github.com/vineet-codes256",
     },
     {
       title: "Camera App Chrome Extension",
       description:
-        "Achieved over 18,000 installs by providing users with a simple, intuitive camera app for Chrome browsers.",
+        "Achieved significant traction with over 18,000 installs and 10,000+ active users. Delivered a simple user-friendly and intuitive camera application for Chrome browsers, solving problems, enhancing user experience and functionality.",
       link: "https://chromewebstore.google.com/detail/capturepro-camera/igoginokckmjjoaohbimmglmbbdnhfoi",
     },
     {
       title: "PC Hardware Builds",
       description:
-        "Customized high-performance systems prioritizing sustainability and cost-efficiency.",
+        "Specialized in crafting high-performance, sustainable, and cost-efficient PC hardware systems tailored to meet diverse user needs.",
     },
   ]);
 
