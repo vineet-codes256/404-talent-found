@@ -22,9 +22,9 @@ export default function Portfolio() {
       link: "https://abun.com",
     },
     {
-      title: "AI-Powered Productivity Tools",
+      title: "Productivity Tools",
       description:
-        "Developed innovative tools designed to support individuals with ADHD, dyslexia, and other neurodivergences. Developed a suite of applications including a music player, focus timer, and a highly functional Chrome extension.",
+        "Developed innovative tools designed to help people. Developed a suite of applications including a productivity music player with white noise, a screen recorder, and many more.",
       link: "https://github.com/vineet-codes256",
     },
     {
