@@ -71,7 +71,6 @@ export default function Portfolio() {
         <p className="text-xl text-gray-600">
           Full-Stack Developer | AI Enthusiast | Problem Solver
         </p>
-        <SiGithub className="w-6 h-6 text-gray-700" />
         <div className="flex justify-center space-x-4 mt-6">
           <a href="https://github.com/vineet-codes256" target="_blank" rel="noopener noreferrer">
             <SiGithub className="w-6 h-6 text-gray-700" />
