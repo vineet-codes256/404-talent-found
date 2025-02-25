@@ -18,25 +18,49 @@ export default function Portfolio() {
     {
       title: "Abun.com",
       description:
-        "Played a pivotal role as a core developer at Abun.com, a cutting-edge SaaS platform. Spearheaded the development of AI-driven features, optimized cloud infrastructure, and scalable SaaS applications. Delivered comprehensive solutions encompassing a React front-end, Django REST Framework (DRF) backend, and robust cloud architecture.",
+        "Played a pivotal role as a core developer at Abun.com, a cutting-edge AI powered SaaS platform. Spearheaded the development of AI-driven features, solved complex problems, optimized cloud infrastructure, and scalable SaaS application. Tech Stack includes TypeScript React front-end, Python Django REST Framework (DRF) backend, and robust cloud architecture.",
       link: "https://abun.com",
     },
     {
-      title: "Productivity Tools",
+      title: "Prospectss.com",
       description:
-        "Developed innovative tools designed to help people. Developed a suite of applications including a productivity music player with white noise, a screen recorder, and many more.",
-      link: "https://github.com/vineet-codes256",
+        "Played a pivotal role as a core browser extension developer at Prospectss.com, building Premium Growth Marketing Tools for lead generation, sales, outreach and much more. Spearheaded the development of scraping tools, solved complex problems, optimized existing codebase for efficiency.",
+      link: "https://prospectss.com",
     },
     {
-      title: "Camera App Chrome Extension",
+      title: "Camera App Browser Extension",
       description:
-        "Achieved significant traction with over 18,000 installs and 10,000+ active users. Delivered a simple user-friendly and intuitive camera application for Chrome browsers, solving problems, enhancing user experience and functionality.",
-      link: "https://chromewebstore.google.com/detail/capturepro-camera/igoginokckmjjoaohbimmglmbbdnhfoi",
+        "Achieved significant traction with over 18,000 installs and 10,000+ users worldwide. Delivered a simple user-friendly and intuitive camera application for Chrome browsers, solving problems, enhancing user experience and functionality.",
+      link: "https://chromewebstore.google.com/detail/igoginokckmjjoaohbimmglmbbdnhfoi",
+    },
+    {
+      title: "Simple Emoji Picker Extension (With Dark Mode)",
+      description:
+        "Simple Emoji Picker chrome extension with Fuzzy Search algorithm",
+      link: "https://chromewebstore.google.com/detail/ommloefiballocabdjkaalodcajhoffi",
+    },
+    {
+      title: "Productivity Music Player",
+      description:
+        "A simple offline music player browser extension with built-in white noise for better focus.",
+      link: "https://chromewebstore.google.com/detail/fobhnemcgkbijhaaphehmhamdhdekggb",
+    },
+    {
+      title: "Screen Recorder",
+      description:
+        "A simple and free Screen Recorder extension. Works offline, no internet connection needed. Record what's on your screen and when you're done the recorded video get saved in your downloads folder in mp4 format. Simple!",
+      link: "https://chromewebstore.google.com/detail/fobhnemcgkbijhaaphehmhamdhdekggb",
+    },
+    {
+      title: "GitHub Projects",
+      description:
+        "While learning web development, worked on many projects aiming for some real world use case",
+      link: "https://github.com/vineet-codes256",
     },
     {
       title: "PC Hardware Builds",
       description:
-        "Specialized in crafting high-performance, sustainable, and cost-efficient PC hardware systems tailored to meet diverse user needs.",
+        "Specialized in crafting high-performance, sustainable, and cost-efficient PC hardware systems tailored to meet personal needs.",
     },
   ]);
 
