@@ -74,7 +74,7 @@ export default function Portfolio() {
         <SiGithub className="w-6 h-6 text-gray-700" />
         <div className="flex justify-center space-x-4 mt-6">
           <a href="https://github.com/vineet-codes256" target="_blank" rel="noopener noreferrer">
-            <SiLinkedin className="w-6 h-6 text-gray-700" />
+            <SiGithub className="w-6 h-6 text-gray-700" />
           </a>
           <a href="https://www.linkedin.com/in/vineetrawat256" target="_blank" rel="noopener noreferrer">
             <LucideLinkedin className="w-6 h-6 text-gray-700" />
