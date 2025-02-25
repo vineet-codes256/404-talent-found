@@ -65,11 +65,7 @@ export default function Portfolio() {
         <section className="my-10">
           <h2 className="text-3xl font-semibold text-gray-700 mb-6">About Me</h2>
           <p className="text-lg text-gray-600">
-            I am a jack-of-all-trades developer with a passion for technology and
-            innovation. Since the age of 9, I have navigated life with monocular
-            vision, ADHD, and myopia with astigmatism. These challenges have
-            shaped me into a resilient problem-solver, eager to craft elegant
-            solutions for complex problems. Let’s create impactful solutions together!
+            I am a jack-of-all-trades developer with a passion for technology and innovation. Let’s create positive impact together!
           </p>
         </section>
 
