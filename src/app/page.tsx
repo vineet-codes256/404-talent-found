@@ -4,7 +4,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Card, CardContent } from "./components/Card";
 import { Button } from "./components/Button";
-import { LucideMail, LucideLinkedin } from "lucide-react";
+import { LucideMail } from "lucide-react";
 import { SiGithub, SiLinkedin } from "react-icons/si";
 
 interface Project {
@@ -77,7 +77,7 @@ export default function Portfolio() {
             <SiGithub className="w-6 h-6 text-gray-700" />
           </a>
           <a href="https://www.linkedin.com/in/vineetrawat256" target="_blank" rel="noopener noreferrer">
-            <LucideLinkedin className="w-6 h-6 text-gray-700" />
+            <SiLinkedin className="w-6 h-6 text-gray-700" />
           </a>
           <a href="mailto:vineetrawat256@gmail.com">
             <LucideMail className="w-6 h-6 text-gray-700" />
