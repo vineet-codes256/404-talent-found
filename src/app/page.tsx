@@ -54,7 +54,7 @@ export default function Portfolio() {
     {
       title: "GitHub Projects",
       description:
-        "While learning web development, worked on many projects aiming for some real world use case",
+        "While learning web development, worked on many projects aiming to demonstrate skills in real world problem solving",
       link: "https://github.com/vineet-codes256",
     },
     {
