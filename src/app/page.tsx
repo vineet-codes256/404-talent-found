@@ -24,7 +24,7 @@ export default function Portfolio() {
     {
       title: "Prospectss.com",
       description:
-        "Played a pivotal role as a core browser extension developer at Prospectss.com, building Premium Growth Marketing Tools for lead generation, sales, outreach and much more. Spearheaded the development of scraping tools, solved complex problems, optimized existing codebase for efficiency.",
+        "Played a major role as a core browser extension developer at Prospectss.com, building and maintaining 25+ Premium Growth Marketing Tools for lead generation, sales, outreach and much more. Spearheaded the development of scraping tools, solved complex problems, optimized existing codebase for efficiency.",
       link: "https://prospectss.com",
     },
     {
