@@ -88,7 +88,7 @@ export default function Portfolio() {
         <section className="my-10">
           <h2 className="text-3xl font-semibold text-gray-700 mb-6">About Me</h2>
           <p className="text-lg text-gray-600">
-            Me is a jack-of-all-trades developer with a passion for technology and innovation. Let’s create positive impact together!
+            Me is a versatile jack-of-all-trades developer with a passion for technology and innovation. I&apos;m insatiably curious, constantly learning, creative problem-solving, and building solutions that make a difference. Let&rsquo;s create positive impact together!
           </p>
         </section>
 
