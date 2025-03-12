@@ -18,13 +18,13 @@ export default function Portfolio() {
     {
       title: "Abun.com",
       description:
-        "Dyanamic Full stack developer at Abun.com, a cutting-edge AI powered SaaS platform. Spearheaded the development of AI-driven features, solved complex problems, optimized cloud infrastructure, and scalable SaaS application. Tech Stack includes TypeScript React front-end, Python Django REST Framework (DRF) backend, and robust cloud architecture.",
+        "Dyanamic Full stack developer at Abun.com, a cutting-edge AI powered SaaS platform. Contributed in the development of AI-driven features, solved complex problems, optimized cloud infrastructure, and scalable SaaS application. Tech Stack includes TypeScript React front-end, Python Django REST Framework (DRF) backend, and robust cloud architecture.",
       link: "https://abun.com",
     },
     {
       title: "Prospectss.com",
       description:
-        "Played a major role as a browser extension developer at Prospectss.com, building and maintaining 25+ Premium Growth Marketing Tools for lead generation, sales, outreach and much more. Spearheaded the development of scraping tools, solved complex problems, optimized existing codebase for efficiency.",
+        "Played a major role as a browser extension developer at Prospectss.com, building and maintaining 25+ Premium Growth Marketing Tools for lead generation, sales, outreach and much more. Contributed in the development of scraping tools, solved complex problems, optimized existing codebase for efficiency.",
       link: "https://prospectss.com",
     },
     {
@@ -88,7 +88,7 @@ export default function Portfolio() {
         <section className="my-10">
           <h2 className="text-3xl font-semibold text-gray-700 mb-6">About Me</h2>
           <p className="text-lg text-gray-600">
-            I am a jack-of-all-trades developer with a passion for technology and innovation. Let’s create positive impact together!
+            Me is a jack-of-all-trades developer with a passion for technology and innovation. Let’s create positive impact together!
           </p>
         </section>
 
