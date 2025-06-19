@@ -67,9 +67,9 @@ export default function Portfolio() {
   return (
     <div className="bg-gray-100 min-h-screen p-8">
       <header className="text-center py-10">
-        <h1 className="text-5xl font-bold text-gray-800 mb-4">Vineet Rawat</h1>
+        <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-4">Vineet Rawat</h1>
         <p className="text-xl text-gray-600">
-          Full-Stack Developer | AI Enthusiast | Problem Solver
+          Full-Stack Developer | Problem Solver | AI & Automation Strategist | Systems Thinker | Creative Innovator
         </p>
         <div className="flex justify-center space-x-4 mt-6">
           <a href="https://github.com/vineet-codes256" target="_blank" rel="noopener noreferrer">
